@@ -1,2 +1,2 @@
 # -Python-GUI-using-deepface
-This is a small project using pyqt-designer to build GUI 
+This is a project using pyqt-designer to build GUI 
