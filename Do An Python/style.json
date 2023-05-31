@@ -1,0 +1,130 @@
+{
+    "QMainWindow":[
+        {
+            "tittle":"Coffee App",
+            "icon":":/images/4856718.png",
+            "frameless":true,
+            "transluscenBg":true,
+            "sizeGrip": "sizeGrip",
+            "navigation":[
+                {
+                    "minimize":"push_Button_2",
+                    "close":"closeBtn",
+                    "restore":[
+                        {
+                            "buttonName": "restoreBtn",
+                            "normalIcon": ":/newPrefix/square.png",
+                            "maximizedIcon": ":/newPrefix/maximize.png"
+                        }
+                    ],
+                    "moveWindow": "headerContainer",
+                    "tittleBar": "headerContainer"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+		"name": "LeftMenuContainer",
+		"defaultSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 150,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "menuBtn",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/newPrefix/menu.png",
+				"whenMenuIsExpanded": ":/newPrefix/left-arrow.png"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve": "Linear"
+		}]
+    },
+    {
+        "name": "CenterMenuContainer",
+        "defaultSize": [{
+            "width": 0,
+            "height": "parent"
+        }],
+        "collapsedSize": [{
+            "width": 0,
+            "height": "parent"
+        }],
+        "expandedSize": [{
+            "width": 200,
+            "height": "parent"
+        }],
+        "menuTransitionAnimation": [{
+            "animationDuration": 300,
+            "animationEasingCurve": "Linear"
+        }]
+    },
+    {
+        "name": "rightMenuContainer",
+        "defaultSize": [{
+            "width": 0,
+            "height": "parent"
+        }],
+        "collapsedSize": [{
+            "width": 0,
+            "height": "parent"
+        }],
+        "expandedSize": [{
+            "width": 200,
+            "height": "parent"
+        }],
+        "menuTransitionAnimation": [{
+            "animationDuration": 300,
+            "animationEasingCurve": "Linear"
+        }]
+    },
+    {
+        "name": "popupNotificationContainer",
+        "defaultSize": [{
+            "width": 0,
+            "height": "auto"
+        }],
+        "collapsedSize": [{
+            "width": 0,
+            "height": "auto"
+        }],
+        "expandedSize": [{
+            "width": 500,
+            "height": 100
+        }],
+        "toggleButton": [{
+			"buttonName": "notificationBtn"
+		}],
+        "menuTransitionAnimation": [{
+            "animationDuration": 300,
+            "animationEasingCurve": "Linear"
+        }],
+		"floatPosition": [
+			{
+				"relativeTo": "centralwidget",
+				"position": "bottom-center",
+				"shadow":[
+					{
+						"color": "#000",
+						"blurRadius": 20,
+						"xOffset": 0,
+						"yOffset": 0
+					}
+				]
+			}
+		]
+
+    }
+]
+
+}
